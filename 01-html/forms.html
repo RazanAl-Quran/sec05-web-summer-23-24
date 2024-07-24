@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form action="index.html" method="post">
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="username" required>
+
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Ex letter capital" required>
+
+            <br>
+            <!-- checkbox -->
+            <input type="checkbox" id="Java" name="language1" value="Java">
+            <label for="language1"> Java </label><br>
+            <input type="checkbox" id="C" name="language2" value="C">
+            <label for="language2"> C </label><br>
+            <input type="checkbox" id="Python" name="language3" value="Python">
+            <label for="language3"> Python </label>
+            <input type="checkbox" name="javascript" id="javascript" value="javascript" checked>Javascript</input>
+
+            <br>
+
+            <input type="radio" name="age" id="age1" value="15">
+            <label for="age1">0-15</label>
+            <input type="radio" name="age" id="age2" value="25">
+            <label for="age2">15-25</label>
+            <input type="radio" name="age" id="age3" value="35">
+            <label for="age3">25-35</label>
+
+            <br>
+            <input type="color" name="favcolor" id="favcolor">
+
+            <br>
+            <input type="date" name="birthday" id="birthday">
+
+            <br>
+            <input type="file" name="myFile" id="myFile">
+
+            <br>
+            <input type="number" name="quantity" id="quantity" min="1" max="100" step="2">
+
+            <br>
+            <label for="feedback ">Enter your feedback here :</label>
+            <textarea name="feedback" id="feedback" rows="10" cols="20">Add your feedback here</textarea>
+
+            <br>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <input list="browsers" name="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+
+            <!-- <button>Click me</button> -->
+
+            <!-- fieldset & legend -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <!-- Form controls go here -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+
+            <input type="submit" value="Sign up">
+
+            <input type="reset" value="Clear">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
