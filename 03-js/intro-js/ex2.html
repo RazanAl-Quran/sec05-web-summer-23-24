@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- JS goes here -->
+
+</head>
+<body>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button onclick="myFunction()">Click Me</button>
+
+    <!-- JS goes here -->
+     <script>
+        console.log("hello from ex2");
+        function myFunction() {
+            console.log(document);
+            console.log("hello from myFunction");
+            document.getElementById('demo').textContent='Hello there';
+        }
+     </script>
+</body>
+</html>
